@@ -1,9 +1,6 @@
 #include "Parser.h"
 
 Parser::Parser() {
-//   int index = 0;
-//   vector<Token*> tokenVector;
-//   DatalogProgram dlp;
 }
 Parser::~Parser() {
    for (auto & i : tokenVector) {
