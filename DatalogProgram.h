@@ -39,9 +39,9 @@ public:
    }
    void toString() {
       cout << "Schemes(" << schemes.size() << "):" << endl;
-      for (int i = 0; i < schemes.size(); i++) {                        // Print out individual schemes
+      for (unsigned int i = 0; i < schemes.size(); i++) {                        // Print out individual schemes
          cout << "  " << schemes.at(i).getID() << "(";
-         for (int j = 0; j < schemes.at(i).getParameterList().size(); j++) {
+         for (unsigned int j = 0; j < schemes.at(i).getParameterList().size(); j++) {
             if (j < (schemes.at(i).getParameterList().size() - 1)) {    // Print out commas out correctly
                cout << schemes.at(i).getParameterList().at(j)->getP() << ",";
             }
@@ -52,9 +52,9 @@ public:
          cout << ")" << endl;
       }
       cout << "Facts(" << facts.size() << "):" << endl;
-      for (int i = 0; i < facts.size(); i++) {                          // Print out individual facts
+      for (unsigned int i = 0; i < facts.size(); i++) {                          // Print out individual facts
          cout << "  " << facts.at(i).getID() << "(";
-         for (int j = 0; j < facts.at(i).getParameterList().size(); j++) {
+         for (unsigned int j = 0; j < facts.at(i).getParameterList().size(); j++) {
             if (j < (facts.at(i).getParameterList().size() - 1)) {      // Print out commas correctly
                cout << facts.at(i).getParameterList().at(j)->getP() << ",";
             }
@@ -65,10 +65,10 @@ public:
          cout << ")." << endl;
       }
       cout << "Rules(" << rules.size() << "):" << endl;
-      for (int i = 0; i < rules.size(); i++) {
+      for (unsigned int i = 0; i < rules.size(); i++) {
          // print each head predicate: headPredicate :-
          cout << "  " << rules.at(i).getHeadPredicate().getID() << "(";
-         for (int j = 0; j < rules.at(i).getHeadPredicate().getParameterList().size(); j++) {
+         for (unsigned int j = 0; j < rules.at(i).getHeadPredicate().getParameterList().size(); j++) {
             if (j < (rules.at(i).getHeadPredicate().getParameterList().size() - 1)) {
                cout << rules.at(i).getHeadPredicate().getParameterList().at(j)->getP() << ",";
             }
@@ -78,9 +78,9 @@ public:
          }
          cout << ") :- ";
          // print body predicates separated by commas. End with period.
-         for (int j = 0; j < rules.at(i).getBodyPredicates().size(); j++) {
+         for (unsigned int j = 0; j < rules.at(i).getBodyPredicates().size(); j++) {
             cout << rules.at(i).getBodyPredicates().at(j).getID() << "(";
-            for (int k = 0; k < rules.at(i).getBodyPredicates().at(j).getParameterList().size(); k++) {
+            for (unsigned int k = 0; k < rules.at(i).getBodyPredicates().at(j).getParameterList().size(); k++) {
                if (k < (rules.at(i).getBodyPredicates().at(j).getParameterList().size() - 1)) {
                   cout << rules.at(i).getBodyPredicates().at(j).getParameterList().at(k)->getP() << ",";
                }
@@ -92,9 +92,9 @@ public:
          cout << ")." << endl;
       }
       cout << "Queries(" << queries.size() << "):" << endl;
-      for (int i = 0; i < queries.size(); i++) {
+      for (unsigned int i = 0; i < queries.size(); i++) {
          cout << "  " << queries.at(i).getID() << "(";
-         for (int j = 0; j < queries.at(i).getParameterList().size(); j++) {
+         for (unsigned int j = 0; j < queries.at(i).getParameterList().size(); j++) {
             if (j < (queries.at(i).getParameterList().size() - 1)) {
                cout << queries.at(i).getParameterList().at(j)->getP() << ",";
             }
