@@ -10,7 +10,7 @@
 class Parser {
 private:
 
-   int index{};
+   int index;
    vector<Token*> tokenVector;
    DatalogProgram dlp;
 
