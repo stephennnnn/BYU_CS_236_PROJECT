@@ -17,7 +17,7 @@ public:
     ~Lexer();
     void Run(string& input);
     string toString();
-//    void undefinedHelper(int& maxRead, string& stringCopy, int& lineNumber);
+    vector<Token*> getTokenVector();
 
 };
 

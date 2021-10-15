@@ -97,7 +97,9 @@ void Lexer::Run(std::string& input) {
          string tokenString = stringCopy.substr(0, maxRead);
          Token* newToken = maxAutomaton->CreateToken(tokenString, lineNumber);
          lineNumber += maxAutomaton->NewLinesRead();        // Increment line number according to NewLinesRead in token
-         tokens.push_back(newToken);
+         if (newToken->getTokenType() != TokenType::COMMENT) {
+            tokens.push_back(newToken);                     // The parser does not deal with comments, so we do not add them.
+         }
 
       }
       else {
@@ -124,3 +126,9 @@ string Lexer::toString() {
 
    return returnString;                                               // Return the string
 }
+
+vector<Token*> Lexer::getTokenVector() {
+   return tokens; // Returns vector of token pointers
+}
+
+

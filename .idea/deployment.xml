@@ -5,10 +5,12 @@
       <paths name="Schizo (26cc73ad-786c-401e-a4be-6b24b577bc74)">
         <serverdata>
           <mappings>
-            <mapping deploy="/users/guest/s/stveten/cs236" local="$PROJECT_DIR$" />
+            <mapping deploy="/users/guest/s/stveten/cs236/Project-2" local="$PROJECT_DIR$" />
           </mappings>
           <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-release-mingw" />
             <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug-schizo" />
             <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug" />
           </excludedPaths>
         </serverdata>

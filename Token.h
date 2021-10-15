@@ -34,7 +34,9 @@ private:
 public:
    Token(TokenType type, string description, int line);
    string toString();
-
+   TokenType getTokenType();
+   string getTokenDescription();
+   int getTokenLine();
 };
 
 #endif // TOKEN_H

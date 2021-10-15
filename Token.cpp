@@ -70,3 +70,14 @@ string Token::toString() {
    // Return formatted string:
    return "(" + typeString + ",\"" + this->description + "\"," + to_string(this->line) + ")";
 }
+
+TokenType Token::getTokenType() {
+   return type;
+}
+
+string Token::getTokenDescription() {
+   return description;
+}
+int Token::getTokenLine(){
+   return line;
+}

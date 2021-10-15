@@ -1,3 +1,1 @@
-/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /users/guest/s/stveten/cs236
-CMake Error: The source directory "/users/guest/s/stveten/cs236" does not appear to contain CMakeLists.txt.
-Specify --help for usage, or press the help button on the CMake GUI.
+CMake executable not found: /usr/bin/cmake Configure

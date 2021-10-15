@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/users/guest/s/stveten/cs236/tmp/tmp.QKgCy63ON8/cmake-build-debug"/>
+				<Option working_dir="/users/guest/s/stveten/cs236/Project-2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j20 -f &quot;/users/guest/s/stveten/cs236/tmp/tmp.QKgCy63ON8/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j20 -f &quot;/users/guest/s/stveten/cs236/tmp/tmp.QKgCy63ON8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j20 -f &quot;/users/guest/s/stveten/cs236/tmp/tmp.QKgCy63ON8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j20 -f &quot;/users/guest/s/stveten/cs236/tmp/tmp.QKgCy63ON8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j20 -f &quot;/users/guest/s/stveten/cs236/Project-2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/users/guest/s/stveten/cs236/Project-2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/users/guest/s/stveten/cs236/Project-2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/users/guest/s/stveten/cs236/Project-2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/users/guest/s/stveten/cs236/tmp/tmp.QKgCy63ON8/cmake-build-debug"/>
+				<Option working_dir="/users/guest/s/stveten/cs236/Project-2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j20 -f &quot;/users/guest/s/stveten/cs236/tmp/tmp.QKgCy63ON8/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j20 -f &quot;/users/guest/s/stveten/cs236/tmp/tmp.QKgCy63ON8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j20 -f &quot;/users/guest/s/stveten/cs236/tmp/tmp.QKgCy63ON8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j20 -f &quot;/users/guest/s/stveten/cs236/tmp/tmp.QKgCy63ON8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j20 -f &quot;/users/guest/s/stveten/cs236/Project-2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/users/guest/s/stveten/cs236/Project-2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/users/guest/s/stveten/cs236/Project-2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/users/guest/s/stveten/cs236/Project-2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/users/guest/s/stveten/cs236/tmp/tmp.QKgCy63ON8/cmake-build-debug"/>
+				<Option working_dir="/users/guest/s/stveten/cs236/Project-2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j20 -f &quot;/users/guest/s/stveten/cs236/tmp/tmp.QKgCy63ON8/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j20 -f &quot;/users/guest/s/stveten/cs236/tmp/tmp.QKgCy63ON8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j20 -f &quot;/users/guest/s/stveten/cs236/tmp/tmp.QKgCy63ON8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j20 -f &quot;/users/guest/s/stveten/cs236/tmp/tmp.QKgCy63ON8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j20 -f &quot;/users/guest/s/stveten/cs236/Project-2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/users/guest/s/stveten/cs236/Project-2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/users/guest/s/stveten/cs236/Project-2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/users/guest/s/stveten/cs236/Project-2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Project2">
-				<Option output="/users/guest/s/stveten/cs236/tmp/tmp.QKgCy63ON8/cmake-build-debug/Project2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/users/guest/s/stveten/cs236/tmp/tmp.QKgCy63ON8/cmake-build-debug"/>
+				<Option output="/users/guest/s/stveten/cs236/Project-2/cmake-build-debug/Project2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/users/guest/s/stveten/cs236/Project-2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,15 +53,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j20 -f &quot;/users/guest/s/stveten/cs236/tmp/tmp.QKgCy63ON8/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project2"/>
-					<CompileFile command="/usr/bin/make -j20 -f &quot;/users/guest/s/stveten/cs236/tmp/tmp.QKgCy63ON8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j20 -f &quot;/users/guest/s/stveten/cs236/tmp/tmp.QKgCy63ON8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j20 -f &quot;/users/guest/s/stveten/cs236/tmp/tmp.QKgCy63ON8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j20 -f &quot;/users/guest/s/stveten/cs236/Project-2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project2"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/users/guest/s/stveten/cs236/Project-2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/users/guest/s/stveten/cs236/Project-2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/users/guest/s/stveten/cs236/Project-2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Project2/fast">
-				<Option output="/users/guest/s/stveten/cs236/tmp/tmp.QKgCy63ON8/cmake-build-debug/Project2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/users/guest/s/stveten/cs236/tmp/tmp.QKgCy63ON8/cmake-build-debug"/>
+				<Option output="/users/guest/s/stveten/cs236/Project-2/cmake-build-debug/Project2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/users/guest/s/stveten/cs236/Project-2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -75,17 +75,89 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j20 -f &quot;/users/guest/s/stveten/cs236/tmp/tmp.QKgCy63ON8/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project2/fast"/>
-					<CompileFile command="/usr/bin/make -j20 -f &quot;/users/guest/s/stveten/cs236/tmp/tmp.QKgCy63ON8/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j20 -f &quot;/users/guest/s/stveten/cs236/tmp/tmp.QKgCy63ON8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j20 -f &quot;/users/guest/s/stveten/cs236/tmp/tmp.QKgCy63ON8/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j20 -f &quot;/users/guest/s/stveten/cs236/Project-2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project2/fast"/>
+					<CompileFile command="/usr/bin/make -j20 -f &quot;/users/guest/s/stveten/cs236/Project-2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j20 -f &quot;/users/guest/s/stveten/cs236/Project-2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j20 -f &quot;/users/guest/s/stveten/cs236/Project-2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/users/guest/s/stveten/cs236/tmp/tmp.QKgCy63ON8/main.cpp">
+		<Unit filename="/users/guest/s/stveten/cs236/Project-2/BlockCommentAutomaton.cpp">
 			<Option target="Project2"/>
 		</Unit>
-		<Unit filename="/users/guest/s/stveten/cs236/tmp/tmp.QKgCy63ON8/CMakeLists.txt">
+		<Unit filename="/users/guest/s/stveten/cs236/Project-2/BlockCommentAutomaton.h">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/users/guest/s/stveten/cs236/Project-2/ColonAutomaton.cpp">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/users/guest/s/stveten/cs236/Project-2/ColonAutomaton.h">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/users/guest/s/stveten/cs236/Project-2/ColonDashAutomaton.cpp">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/users/guest/s/stveten/cs236/Project-2/ColonDashAutomaton.h">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/users/guest/s/stveten/cs236/Project-2/IDAutomaton.cpp">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/users/guest/s/stveten/cs236/Project-2/IDAutomaton.h">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/users/guest/s/stveten/cs236/Project-2/Lexer.cpp">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/users/guest/s/stveten/cs236/Project-2/Lexer.h">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/users/guest/s/stveten/cs236/Project-2/LineCommentAutomaton.cpp">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/users/guest/s/stveten/cs236/Project-2/LineCommentAutomaton.h">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/users/guest/s/stveten/cs236/Project-2/MatcherAutomaton.cpp">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/users/guest/s/stveten/cs236/Project-2/MatcherAutomaton.h">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/users/guest/s/stveten/cs236/Project-2/Parser.cpp">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/users/guest/s/stveten/cs236/Project-2/Parser.h">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/users/guest/s/stveten/cs236/Project-2/StringAutomaton.cpp">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/users/guest/s/stveten/cs236/Project-2/StringAutomaton.h">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/users/guest/s/stveten/cs236/Project-2/Token.cpp">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/users/guest/s/stveten/cs236/Project-2/Token.h">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/users/guest/s/stveten/cs236/Project-2/UndefinedBlockCommentAutomaton.cpp">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/users/guest/s/stveten/cs236/Project-2/UndefinedBlockCommentAutomaton.h">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/users/guest/s/stveten/cs236/Project-2/UndefinedStringAutomaton.cpp">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/users/guest/s/stveten/cs236/Project-2/UndefinedStringAutomaton.h">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/users/guest/s/stveten/cs236/Project-2/main.cpp">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/users/guest/s/stveten/cs236/Project-2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

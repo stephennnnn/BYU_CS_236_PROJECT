@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /users/guest/s/stveten/cs236/tmp/tmp.QKgCy63ON8
+CMAKE_SOURCE_DIR = /users/guest/s/stveten/cs236/Project-2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /users/guest/s/stveten/cs236/tmp/tmp.QKgCy63ON8/cmake-build-debug
+CMAKE_BINARY_DIR = /users/guest/s/stveten/cs236/Project-2/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /users/guest/s/stveten/cs236/tmp/tmp.QKgCy63ON8/cmake-build-debug/CMakeFiles /users/guest/s/stveten/cs236/tmp/tmp.QKgCy63ON8/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /users/guest/s/stveten/cs236/Project-2/cmake-build-debug/CMakeFiles /users/guest/s/stveten/cs236/Project-2/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /users/guest/s/stveten/cs236/tmp/tmp.QKgCy63ON8/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /users/guest/s/stveten/cs236/Project-2/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,438 @@ Project2/fast:
 	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/build
 .PHONY : Project2/fast
 
+BlockCommentAutomaton.o: BlockCommentAutomaton.cpp.o
+
+.PHONY : BlockCommentAutomaton.o
+
+# target to build an object file
+BlockCommentAutomaton.cpp.o:
+	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/BlockCommentAutomaton.cpp.o
+.PHONY : BlockCommentAutomaton.cpp.o
+
+BlockCommentAutomaton.i: BlockCommentAutomaton.cpp.i
+
+.PHONY : BlockCommentAutomaton.i
+
+# target to preprocess a source file
+BlockCommentAutomaton.cpp.i:
+	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/BlockCommentAutomaton.cpp.i
+.PHONY : BlockCommentAutomaton.cpp.i
+
+BlockCommentAutomaton.s: BlockCommentAutomaton.cpp.s
+
+.PHONY : BlockCommentAutomaton.s
+
+# target to generate assembly for a file
+BlockCommentAutomaton.cpp.s:
+	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/BlockCommentAutomaton.cpp.s
+.PHONY : BlockCommentAutomaton.cpp.s
+
+ColonAutomaton.o: ColonAutomaton.cpp.o
+
+.PHONY : ColonAutomaton.o
+
+# target to build an object file
+ColonAutomaton.cpp.o:
+	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/ColonAutomaton.cpp.o
+.PHONY : ColonAutomaton.cpp.o
+
+ColonAutomaton.i: ColonAutomaton.cpp.i
+
+.PHONY : ColonAutomaton.i
+
+# target to preprocess a source file
+ColonAutomaton.cpp.i:
+	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/ColonAutomaton.cpp.i
+.PHONY : ColonAutomaton.cpp.i
+
+ColonAutomaton.s: ColonAutomaton.cpp.s
+
+.PHONY : ColonAutomaton.s
+
+# target to generate assembly for a file
+ColonAutomaton.cpp.s:
+	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/ColonAutomaton.cpp.s
+.PHONY : ColonAutomaton.cpp.s
+
+ColonDashAutomaton.o: ColonDashAutomaton.cpp.o
+
+.PHONY : ColonDashAutomaton.o
+
+# target to build an object file
+ColonDashAutomaton.cpp.o:
+	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/ColonDashAutomaton.cpp.o
+.PHONY : ColonDashAutomaton.cpp.o
+
+ColonDashAutomaton.i: ColonDashAutomaton.cpp.i
+
+.PHONY : ColonDashAutomaton.i
+
+# target to preprocess a source file
+ColonDashAutomaton.cpp.i:
+	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/ColonDashAutomaton.cpp.i
+.PHONY : ColonDashAutomaton.cpp.i
+
+ColonDashAutomaton.s: ColonDashAutomaton.cpp.s
+
+.PHONY : ColonDashAutomaton.s
+
+# target to generate assembly for a file
+ColonDashAutomaton.cpp.s:
+	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/ColonDashAutomaton.cpp.s
+.PHONY : ColonDashAutomaton.cpp.s
+
+DatalogProgram.o: DatalogProgram.cpp.o
+
+.PHONY : DatalogProgram.o
+
+# target to build an object file
+DatalogProgram.cpp.o:
+	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/DatalogProgram.cpp.o
+.PHONY : DatalogProgram.cpp.o
+
+DatalogProgram.i: DatalogProgram.cpp.i
+
+.PHONY : DatalogProgram.i
+
+# target to preprocess a source file
+DatalogProgram.cpp.i:
+	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/DatalogProgram.cpp.i
+.PHONY : DatalogProgram.cpp.i
+
+DatalogProgram.s: DatalogProgram.cpp.s
+
+.PHONY : DatalogProgram.s
+
+# target to generate assembly for a file
+DatalogProgram.cpp.s:
+	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/DatalogProgram.cpp.s
+.PHONY : DatalogProgram.cpp.s
+
+IDAutomaton.o: IDAutomaton.cpp.o
+
+.PHONY : IDAutomaton.o
+
+# target to build an object file
+IDAutomaton.cpp.o:
+	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/IDAutomaton.cpp.o
+.PHONY : IDAutomaton.cpp.o
+
+IDAutomaton.i: IDAutomaton.cpp.i
+
+.PHONY : IDAutomaton.i
+
+# target to preprocess a source file
+IDAutomaton.cpp.i:
+	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/IDAutomaton.cpp.i
+.PHONY : IDAutomaton.cpp.i
+
+IDAutomaton.s: IDAutomaton.cpp.s
+
+.PHONY : IDAutomaton.s
+
+# target to generate assembly for a file
+IDAutomaton.cpp.s:
+	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/IDAutomaton.cpp.s
+.PHONY : IDAutomaton.cpp.s
+
+Lexer.o: Lexer.cpp.o
+
+.PHONY : Lexer.o
+
+# target to build an object file
+Lexer.cpp.o:
+	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/Lexer.cpp.o
+.PHONY : Lexer.cpp.o
+
+Lexer.i: Lexer.cpp.i
+
+.PHONY : Lexer.i
+
+# target to preprocess a source file
+Lexer.cpp.i:
+	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/Lexer.cpp.i
+.PHONY : Lexer.cpp.i
+
+Lexer.s: Lexer.cpp.s
+
+.PHONY : Lexer.s
+
+# target to generate assembly for a file
+Lexer.cpp.s:
+	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/Lexer.cpp.s
+.PHONY : Lexer.cpp.s
+
+LineCommentAutomaton.o: LineCommentAutomaton.cpp.o
+
+.PHONY : LineCommentAutomaton.o
+
+# target to build an object file
+LineCommentAutomaton.cpp.o:
+	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/LineCommentAutomaton.cpp.o
+.PHONY : LineCommentAutomaton.cpp.o
+
+LineCommentAutomaton.i: LineCommentAutomaton.cpp.i
+
+.PHONY : LineCommentAutomaton.i
+
+# target to preprocess a source file
+LineCommentAutomaton.cpp.i:
+	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/LineCommentAutomaton.cpp.i
+.PHONY : LineCommentAutomaton.cpp.i
+
+LineCommentAutomaton.s: LineCommentAutomaton.cpp.s
+
+.PHONY : LineCommentAutomaton.s
+
+# target to generate assembly for a file
+LineCommentAutomaton.cpp.s:
+	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/LineCommentAutomaton.cpp.s
+.PHONY : LineCommentAutomaton.cpp.s
+
+MatcherAutomaton.o: MatcherAutomaton.cpp.o
+
+.PHONY : MatcherAutomaton.o
+
+# target to build an object file
+MatcherAutomaton.cpp.o:
+	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/MatcherAutomaton.cpp.o
+.PHONY : MatcherAutomaton.cpp.o
+
+MatcherAutomaton.i: MatcherAutomaton.cpp.i
+
+.PHONY : MatcherAutomaton.i
+
+# target to preprocess a source file
+MatcherAutomaton.cpp.i:
+	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/MatcherAutomaton.cpp.i
+.PHONY : MatcherAutomaton.cpp.i
+
+MatcherAutomaton.s: MatcherAutomaton.cpp.s
+
+.PHONY : MatcherAutomaton.s
+
+# target to generate assembly for a file
+MatcherAutomaton.cpp.s:
+	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/MatcherAutomaton.cpp.s
+.PHONY : MatcherAutomaton.cpp.s
+
+Parameter.o: Parameter.cpp.o
+
+.PHONY : Parameter.o
+
+# target to build an object file
+Parameter.cpp.o:
+	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/Parameter.cpp.o
+.PHONY : Parameter.cpp.o
+
+Parameter.i: Parameter.cpp.i
+
+.PHONY : Parameter.i
+
+# target to preprocess a source file
+Parameter.cpp.i:
+	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/Parameter.cpp.i
+.PHONY : Parameter.cpp.i
+
+Parameter.s: Parameter.cpp.s
+
+.PHONY : Parameter.s
+
+# target to generate assembly for a file
+Parameter.cpp.s:
+	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/Parameter.cpp.s
+.PHONY : Parameter.cpp.s
+
+Parser.o: Parser.cpp.o
+
+.PHONY : Parser.o
+
+# target to build an object file
+Parser.cpp.o:
+	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/Parser.cpp.o
+.PHONY : Parser.cpp.o
+
+Parser.i: Parser.cpp.i
+
+.PHONY : Parser.i
+
+# target to preprocess a source file
+Parser.cpp.i:
+	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/Parser.cpp.i
+.PHONY : Parser.cpp.i
+
+Parser.s: Parser.cpp.s
+
+.PHONY : Parser.s
+
+# target to generate assembly for a file
+Parser.cpp.s:
+	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/Parser.cpp.s
+.PHONY : Parser.cpp.s
+
+Predicate.o: Predicate.cpp.o
+
+.PHONY : Predicate.o
+
+# target to build an object file
+Predicate.cpp.o:
+	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/Predicate.cpp.o
+.PHONY : Predicate.cpp.o
+
+Predicate.i: Predicate.cpp.i
+
+.PHONY : Predicate.i
+
+# target to preprocess a source file
+Predicate.cpp.i:
+	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/Predicate.cpp.i
+.PHONY : Predicate.cpp.i
+
+Predicate.s: Predicate.cpp.s
+
+.PHONY : Predicate.s
+
+# target to generate assembly for a file
+Predicate.cpp.s:
+	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/Predicate.cpp.s
+.PHONY : Predicate.cpp.s
+
+Rule.o: Rule.cpp.o
+
+.PHONY : Rule.o
+
+# target to build an object file
+Rule.cpp.o:
+	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/Rule.cpp.o
+.PHONY : Rule.cpp.o
+
+Rule.i: Rule.cpp.i
+
+.PHONY : Rule.i
+
+# target to preprocess a source file
+Rule.cpp.i:
+	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/Rule.cpp.i
+.PHONY : Rule.cpp.i
+
+Rule.s: Rule.cpp.s
+
+.PHONY : Rule.s
+
+# target to generate assembly for a file
+Rule.cpp.s:
+	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/Rule.cpp.s
+.PHONY : Rule.cpp.s
+
+StringAutomaton.o: StringAutomaton.cpp.o
+
+.PHONY : StringAutomaton.o
+
+# target to build an object file
+StringAutomaton.cpp.o:
+	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/StringAutomaton.cpp.o
+.PHONY : StringAutomaton.cpp.o
+
+StringAutomaton.i: StringAutomaton.cpp.i
+
+.PHONY : StringAutomaton.i
+
+# target to preprocess a source file
+StringAutomaton.cpp.i:
+	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/StringAutomaton.cpp.i
+.PHONY : StringAutomaton.cpp.i
+
+StringAutomaton.s: StringAutomaton.cpp.s
+
+.PHONY : StringAutomaton.s
+
+# target to generate assembly for a file
+StringAutomaton.cpp.s:
+	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/StringAutomaton.cpp.s
+.PHONY : StringAutomaton.cpp.s
+
+Token.o: Token.cpp.o
+
+.PHONY : Token.o
+
+# target to build an object file
+Token.cpp.o:
+	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/Token.cpp.o
+.PHONY : Token.cpp.o
+
+Token.i: Token.cpp.i
+
+.PHONY : Token.i
+
+# target to preprocess a source file
+Token.cpp.i:
+	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/Token.cpp.i
+.PHONY : Token.cpp.i
+
+Token.s: Token.cpp.s
+
+.PHONY : Token.s
+
+# target to generate assembly for a file
+Token.cpp.s:
+	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/Token.cpp.s
+.PHONY : Token.cpp.s
+
+UndefinedBlockCommentAutomaton.o: UndefinedBlockCommentAutomaton.cpp.o
+
+.PHONY : UndefinedBlockCommentAutomaton.o
+
+# target to build an object file
+UndefinedBlockCommentAutomaton.cpp.o:
+	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/UndefinedBlockCommentAutomaton.cpp.o
+.PHONY : UndefinedBlockCommentAutomaton.cpp.o
+
+UndefinedBlockCommentAutomaton.i: UndefinedBlockCommentAutomaton.cpp.i
+
+.PHONY : UndefinedBlockCommentAutomaton.i
+
+# target to preprocess a source file
+UndefinedBlockCommentAutomaton.cpp.i:
+	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/UndefinedBlockCommentAutomaton.cpp.i
+.PHONY : UndefinedBlockCommentAutomaton.cpp.i
+
+UndefinedBlockCommentAutomaton.s: UndefinedBlockCommentAutomaton.cpp.s
+
+.PHONY : UndefinedBlockCommentAutomaton.s
+
+# target to generate assembly for a file
+UndefinedBlockCommentAutomaton.cpp.s:
+	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/UndefinedBlockCommentAutomaton.cpp.s
+.PHONY : UndefinedBlockCommentAutomaton.cpp.s
+
+UndefinedStringAutomaton.o: UndefinedStringAutomaton.cpp.o
+
+.PHONY : UndefinedStringAutomaton.o
+
+# target to build an object file
+UndefinedStringAutomaton.cpp.o:
+	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/UndefinedStringAutomaton.cpp.o
+.PHONY : UndefinedStringAutomaton.cpp.o
+
+UndefinedStringAutomaton.i: UndefinedStringAutomaton.cpp.i
+
+.PHONY : UndefinedStringAutomaton.i
+
+# target to preprocess a source file
+UndefinedStringAutomaton.cpp.i:
+	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/UndefinedStringAutomaton.cpp.i
+.PHONY : UndefinedStringAutomaton.cpp.i
+
+UndefinedStringAutomaton.s: UndefinedStringAutomaton.cpp.s
+
+.PHONY : UndefinedStringAutomaton.s
+
+# target to generate assembly for a file
+UndefinedStringAutomaton.cpp.s:
+	$(MAKE) -f CMakeFiles/Project2.dir/build.make CMakeFiles/Project2.dir/UndefinedStringAutomaton.cpp.s
+.PHONY : UndefinedStringAutomaton.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +591,54 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Project2"
+	@echo "... BlockCommentAutomaton.o"
+	@echo "... BlockCommentAutomaton.i"
+	@echo "... BlockCommentAutomaton.s"
+	@echo "... ColonAutomaton.o"
+	@echo "... ColonAutomaton.i"
+	@echo "... ColonAutomaton.s"
+	@echo "... ColonDashAutomaton.o"
+	@echo "... ColonDashAutomaton.i"
+	@echo "... ColonDashAutomaton.s"
+	@echo "... DatalogProgram.o"
+	@echo "... DatalogProgram.i"
+	@echo "... DatalogProgram.s"
+	@echo "... IDAutomaton.o"
+	@echo "... IDAutomaton.i"
+	@echo "... IDAutomaton.s"
+	@echo "... Lexer.o"
+	@echo "... Lexer.i"
+	@echo "... Lexer.s"
+	@echo "... LineCommentAutomaton.o"
+	@echo "... LineCommentAutomaton.i"
+	@echo "... LineCommentAutomaton.s"
+	@echo "... MatcherAutomaton.o"
+	@echo "... MatcherAutomaton.i"
+	@echo "... MatcherAutomaton.s"
+	@echo "... Parameter.o"
+	@echo "... Parameter.i"
+	@echo "... Parameter.s"
+	@echo "... Parser.o"
+	@echo "... Parser.i"
+	@echo "... Parser.s"
+	@echo "... Predicate.o"
+	@echo "... Predicate.i"
+	@echo "... Predicate.s"
+	@echo "... Rule.o"
+	@echo "... Rule.i"
+	@echo "... Rule.s"
+	@echo "... StringAutomaton.o"
+	@echo "... StringAutomaton.i"
+	@echo "... StringAutomaton.s"
+	@echo "... Token.o"
+	@echo "... Token.i"
+	@echo "... Token.s"
+	@echo "... UndefinedBlockCommentAutomaton.o"
+	@echo "... UndefinedBlockCommentAutomaton.i"
+	@echo "... UndefinedBlockCommentAutomaton.s"
+	@echo "... UndefinedStringAutomaton.o"
+	@echo "... UndefinedStringAutomaton.i"
+	@echo "... UndefinedStringAutomaton.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
