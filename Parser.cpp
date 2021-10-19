@@ -20,12 +20,10 @@ void Parser::parse(vector<Token*> tokens) {  // datalog program function. The ot
 
     match(TokenType::FACTS);
     match(TokenType::COLON);
-    fact();
     factList();
 
     match(TokenType::RULES);
     match(TokenType::COLON);
-    rule();
     ruleList();
 
     match(TokenType::QUERIES);
@@ -156,9 +154,8 @@ void Parser::predicateList(vector<Predicate> &bodyPredicates){      // predicate
       match(TokenType::COMMA);
       Predicate pred;
       predicate(pred);
-      // push back onto vector of rulePreds
+      bodyPredicates.push_back(pred);
       predicateList(bodyPredicates);
-      //
    }
 }
 void Parser::parameterList(vector<Parameter*> &paramList){      // parameterList	-> 	COMMA parameter parameterList | lambda

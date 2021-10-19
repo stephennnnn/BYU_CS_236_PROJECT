@@ -88,6 +88,9 @@ public:
                   cout << rules.at(i).getBodyPredicates().at(j).getParameterList().at(k)->getP();
                }
             }
+            if (j < (rules.at(i).getBodyPredicates().size() - 1)) {
+               cout << "),";
+            }
          }
          cout << ")." << endl;
       }
