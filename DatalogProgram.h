@@ -22,6 +22,7 @@ public:
    DatalogProgram() {}
    ~DatalogProgram() {}
 
+   // Setters:
    void addScheme(Predicate pred) {
       schemes.push_back(pred);
    }
@@ -37,6 +38,22 @@ public:
    void addDomain(string d) {
       domain.insert(d);
    }
+
+   // Getters:
+   const vector<Predicate> &getSchemes() const {
+      return schemes;
+   }
+   const vector<Predicate> &getFacts() const {
+      return facts;
+   }
+   const vector<Predicate> &getQueries() const {
+      return queries;
+   }
+   const vector<Rule> &getRules() const {
+      return rules;
+   }
+
+   // Printing:
    void toString() {
       cout << "Schemes(" << schemes.size() << "):" << endl;
       for (unsigned int i = 0; i < schemes.size(); i++) {                        // Print out individual schemes

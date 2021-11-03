@@ -22,13 +22,13 @@ public:
    void setID(string id) {
       ID = std::move(id);
    }
-   string getID() {
+   string getID() const {
       return ID;
    }
    void setParameterList(vector<Parameter*> paramList) {
       parameterList = std::move(paramList);
    }
-   vector<Parameter*> getParameterList() {
+   vector<Parameter*> getParameterList() const {
       return parameterList;
    }
 

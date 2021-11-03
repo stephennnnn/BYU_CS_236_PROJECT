@@ -1,6 +1,7 @@
 #include "Parser.h"
 
-Parser::Parser() {
+Parser::Parser(vector<Token*> v) {
+   tokenVector = v;
 }
 Parser::~Parser() {
    for (auto & i : tokenVector) {
@@ -8,9 +9,7 @@ Parser::~Parser() {
    }
    cout << "parser deconstruct successful" << endl;
 }
-void Parser::parse(vector<Token*> tokens) {  // datalog program function. The other functions will closely resemble this.
-
-   tokenVector = std::move(tokens);
+void Parser::parse() {  // datalog program function. The other functions will closely resemble this.
 
     // datalogProgram	->	SCHEMES COLON scheme schemeList FACTS COLON factList RULES COLON ruleList QUERIES COLON query queryList EOF
     match(TokenType::SCHEMES);
@@ -31,7 +30,7 @@ void Parser::parse(vector<Token*> tokens) {  // datalog program function. The ot
     query();
     queryList();
 
-    cout << "Success!" << endl;
+//    cout << "Success!" << endl;
 }
 
 void Parser::match(TokenType type) {

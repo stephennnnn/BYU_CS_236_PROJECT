@@ -18,6 +18,15 @@ string p;
       return p;
    }
 
+   bool isConstant() {
+      if (p.at(0) == '\'') {
+         return true;
+      }
+      else {
+         return false;
+      }
+   }
+
 };
 
 

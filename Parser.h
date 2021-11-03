@@ -34,12 +34,12 @@ private:
    void parameter();          // parameter	->	STRING | ID
 
 public:
-   Parser();
+   Parser(vector<Token*> v);
    ~Parser();
 
    // Start out as void function, change to dlp for later phases
 
-   void parse(vector<Token*> tokens);  // datalogProgram	->	SCHEMES COLON scheme schemeList FACTS COLON factList RULES COLON ruleList QUERIES COLON query queryList EOF
+   void parse();  // datalogProgram	->	SCHEMES COLON scheme schemeList FACTS COLON factList RULES COLON ruleList QUERIES COLON query queryList EOF
    void match(TokenType tok);
    DatalogProgram getDlp();
 
