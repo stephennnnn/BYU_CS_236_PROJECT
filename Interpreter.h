@@ -36,6 +36,7 @@ public:
    void fixedPoint(set<int> scc);
    bool evaluateSingleRule(Rule r);
    void fillGraphs();
+   static void sccToString(set<int> s);
 
 };
 

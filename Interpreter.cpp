@@ -128,10 +128,14 @@
       forwardGraph.setPostOrder(reverseGraph.getPostOrder());
       forwardGraph.dfsForestForwardGraph();  // (reverse post order as priority)
 
-      // call fixed point on each SCC:
+      // print out dependency graph and call fixed point on each SCC:
+      forwardGraph.toString();
+
+      cout << "Rule Evaluation" << endl;
       for (const auto& sccIterator : forwardGraph.getComponents()) {
-         fixedPoint(sccIterator);   // todo: getting stuck in an infinite loop in this for loop or in fixedPoint
+         fixedPoint(sccIterator);
       }
+      cout << endl;
    }
 
    void Interpreter::fixedPoint(set<int> scc) {  // pass in set of ints. Find rules that correspond to these ints and add them to a vector<Rule>. Evaluate that vector of rules as normal
@@ -141,19 +145,9 @@
          componentRules.push_back(dlp.getRules().at(setIterator));
       }
 
-      cout << "Rule Evaluation" << endl;
       cout << "SCC: ";
       // Print out SCC
-      int sccSize = scc.size();
-      int counter = 0;
-      for (auto sccIterator : scc) {
-         if (counter == (sccSize - 1)) {
-            cout << "R" << sccIterator << endl;
-         }
-         else {
-            cout << "R" << sccIterator << ", ";
-         }
-      }
+      sccToString(scc);
 
       // Fixed point algorithm:
       bool keepGoing = true;
@@ -170,13 +164,42 @@
          }
 
          loopCounter++;
-         // check scc only has 1 rule, check if set corresponding set in graph loops on itself
-         // change output formatting
-         // makefile in
+
+         bool done = false;
+         if (scc.size() == 1) {
+            done = true;
+            int myInt = *scc.begin();
+            bool found = false;
+            for (auto setIterator : forwardGraph.getNodeMap().find(myInt)->second) {
+               if (setIterator == myInt) {
+                  done = false;
+                  break;   // end for loop
+               }
+            }
+         }
+         if (done) {
+            break;   // this ends the while loop
+         }
       }
       while (keepGoing);
 
-      cout << endl << loopCounter << " passes through the Rules." << endl << endl;
+      cout << loopCounter << " passes: ";
+      // Print out SCC
+      sccToString(scc);
+   }
+
+   void Interpreter::sccToString(set<int> s) {
+      int sccSize = s.size();
+      int counter = 0;
+      for (auto setIterator : s) {
+         if (counter == (sccSize - 1)) {
+            cout << "R" << setIterator << endl;
+         }
+         else {
+            cout << "R" << setIterator << ",";
+         }
+         counter++;
+      }
    }
 
    bool Interpreter::evaluateSingleRule(Rule r) {  // print out rule (everytime), print out new tuples (there may not be new tuples everytime)
@@ -238,6 +261,8 @@
          }
       }
    }
+
+
 
 
 

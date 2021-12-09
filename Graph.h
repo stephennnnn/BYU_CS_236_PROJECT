@@ -114,12 +114,13 @@ public:
                cout << "R" << adjacentNodeIterator;
             }
             else {
-               cout << "R" << adjacentNodeIterator << ", ";
+               cout << "R" << adjacentNodeIterator << ",";
             }
             counter++;
          }
          cout << endl;
       }
+      cout << endl;
    }
 
 
