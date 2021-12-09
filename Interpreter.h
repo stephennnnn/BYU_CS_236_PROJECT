@@ -2,14 +2,9 @@
 #define PROJECT1_STARTER_CODE_INTERPRETER_H
 
 #include <map>
-
-//#include "Header.h"
-//#include "Tuple.h"
-//#include "Relation.h"
 #include "Database.h"
 #include "DatalogProgram.h"
 #include "Graph.h"
-//#include "Predicate.h"
 
 class Interpreter {
 private:
