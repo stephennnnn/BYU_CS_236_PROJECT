@@ -58,7 +58,8 @@ public:
 //            DFS(node)
 //   end
    void dfsForestReverseGraph() {
-      for (int i = 0; i < visited.size(); i++) {
+      int visitedSize = visited.size();
+      for (int i = 0; i < visitedSize; i++) {
          if (!visited.at(i)) {
             dfs(i);
          }
