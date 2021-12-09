@@ -7,9 +7,8 @@ using namespace std;
 
 
 class Header {
-//• Header - contains vector of attributes (string)
+//• Header - contains vector of attributes (strings)
 private:
-   // string name;            // not printing Headers by themselves, so not necessary.
    vector<string> attributes;
 
 public:
@@ -18,6 +17,10 @@ public:
 
    void setAttributes(vector<string> a) {
       attributes = a;
+   }
+
+   void addAttributes(string s) {
+      attributes.push_back(s);
    }
 
    const vector<string> &getAttributes() const {

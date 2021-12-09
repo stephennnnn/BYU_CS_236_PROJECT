@@ -3,17 +3,20 @@
 
 #include <map>
 
-#include "Header.h"
-#include "Tuple.h"
-#include "Relation.h"
+//#include "Header.h"
+//#include "Tuple.h"
+//#include "Relation.h"
 #include "Database.h"
 #include "DatalogProgram.h"
-#include "Predicate.h"
+#include "Graph.h"
+//#include "Predicate.h"
 
 class Interpreter {
 private:
    Database db;
    DatalogProgram dlp;
+   Graph forwardGraph;
+   Graph reverseGraph;
 
 public:
    Interpreter(DatalogProgram d) {
@@ -22,12 +25,17 @@ public:
    ~Interpreter() {}
 
    Database getDb() const;
+   const DatalogProgram &getDlp() const;
 
    void run();
    void runSchemes();
    void runFacts();
    void runQueries();
    Relation* evaluateQuery(const Predicate& p);
+   void evaluateRules();
+   void fixedPoint(set<int> scc);
+   bool evaluateSingleRule(Rule r);
+   void fillGraphs();
 
 };
 

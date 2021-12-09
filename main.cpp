@@ -33,7 +33,7 @@ int main(int argc, char* argv[]) {
    vector<Token*> tokenVectorCopy = lexer->getTokenVector();
    Parser *parser = new Parser(tokenVectorCopy);
    try {
-      parser->parse();                          // Success
+      parser->parse();                            // Success
 //      parser->getDlp().toString();
    }
    catch (Token* token) {
@@ -41,26 +41,25 @@ int main(int argc, char* argv[]) {
 //      cout << token->toString() << endl;
    }
 
-//   // Test:
-//   cout << "========== End of project 2 ==========" << endl << endl << endl << endl;
 
    //----------------------------------------------------------------------------------
    // ------------------------------------Project 3------------------------------------
 
-   // DatalogProgram created as "dlp"
-   // Read schemes, facts, queries from dlp into interpreter.
-   // Create the Database with schemes (headers) and facts (tuples) --> relations, then run queries/operations (interpreter) on relations
+//   The functions this code accesses have been changed:
+//   Interpreter *interpreter = new Interpreter(parser->getDlp());
+//   interpreter->run();
 
+   //----------------------------------------------------------------------------------
+   // ------------------------------------Project 4------------------------------------
 
    Interpreter *interpreter = new Interpreter(parser->getDlp());
    interpreter->run();
 
-   // interpreter->getDb().toString();
-
-   // Something.toString();   // is this my Database that is going toString? Query results?
-
    //----------------------------------------------------------------------------------
+   // ------------------------------------Project 5------------------------------------
+
    delete lexer;
 //   delete parser;    // When implemented, process finished with exit code -1073741819 (0xC0000005)
+//   delete interpreter;
    return 0;
 }

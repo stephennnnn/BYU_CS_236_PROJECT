@@ -8,7 +8,6 @@ using namespace std;
 class Database {
 //• Database - contains a map from name (string) to Relation
 private:
-   // map from name to relation
    map<string, Relation> relationMap;
 
 public:
@@ -18,12 +17,21 @@ public:
    void addRelation(string n, Relation r) {
       relationMap.insert({n, r});
    }
+
    void addTuple(string name, Tuple t) {
       relationMap.at(name).addTuple(t);
    }
 
    Relation getRelation(string name) {
       return relationMap.find(name)->second; // Returns a copy
+   }
+
+   Relation& getRelationByReference(string name) {
+      return relationMap.at(name);
+   }
+
+   const map<string, Relation> &getRelationMap() const {
+      return relationMap;
    }
 
    void toString() const {
