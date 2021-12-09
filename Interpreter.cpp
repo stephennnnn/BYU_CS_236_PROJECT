@@ -169,7 +169,6 @@
          if (scc.size() == 1) {
             done = true;
             int myInt = *scc.begin();
-            bool found = false;
             for (auto setIterator : forwardGraph.getNodeMap().find(myInt)->second) {
                if (setIterator == myInt) {
                   done = false;
