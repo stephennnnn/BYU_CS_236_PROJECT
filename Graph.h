@@ -6,7 +6,6 @@
 #include <set>
 #include <iostream>
 #include "DatalogProgram.h"
-#include "Interpreter.h"
 
 // do I need a forest class? --> implement the forest DFS stuff in your interpreter
 
