@@ -249,9 +249,10 @@
 
    void Interpreter::fillGraphs() {
       // fill out right side of adjacency lists for both forward and reverse graphs
-      for (int i = 0; i < dlp.getRules().size(); i++) {                   // For every rule...
+      int dlpgetRulesSize = dlp.getRules().size();
+      for (int i = 0; i < dlpgetRulesSize; i++) {                   // For every rule...
          for (const Predicate& bodyPreds : dlp.getRules().at(i).getBodyPredicates()) {    // ...get bodyPreds...
-            for (int j = 0; j < dlp.getRules().size(); j++) {             // ...and check bodyPreds against every rule.
+            for (int j = 0; j < dlpgetRulesSize; j++) {             // ...and check bodyPreds against every rule.
                if (bodyPreds.getID() == dlp.getRules().at(j).getHeadPredicate().getID()) {  // if bodyPred matches a headPred,
                   forwardGraph.addEdge(i, j); // add headPred index (j) to dependent set of rule (i) in map
                   reverseGraph.addEdge(j, i); // add bodyPred index to (i)....???? in order to create the reverse graph
